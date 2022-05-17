@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
 
 
 
@@ -67,8 +69,8 @@
                 </h1>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    aria-label="Toggle navigation" id="navbar-toggler">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -101,45 +103,84 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">CONTACT US</a>
                         </li>
+                        <li>
+                            <form class="form-inline my-2 my-lg-0 nav-search">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Enter Keyword"
+                                    aria-label="Search">
+                                <button type="submit" class="btn search-btn"><i class="fa fa-search"
+                                        aria-hidden="true"></i></button>
+                            </form>
+                        </li>
 
                     </ul>
-                    <form class="form-inline my-2 my-lg-0 nav-search">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Enter Keyword" aria-label="Search">
-                        <button type="submit" class="btn search-btn"><i class="fa fa-search"
-                                aria-hidden="true"></i></button>
-                    </form>
+
                 </div>
 
             </nav>
 
         </div>
     </header>
-<!-- sidebar -->
-<section class="sidebar">
-    <div class="sidebar__wrap">
-        <div class="sidebar__content">
-            <div class="sidebar__header">
-                <a href="">
-                    <i class="fas fa-angle-double-right"></i>
-                </a>
-            </div>
-            <div class="sidebar__body">
-                <a href="">
-                    <i class="fas fa-arrow-left"></i>
-                    Back
-                </a>
-                <a href="">
-                    <i class="fas fa-download"></i>
-                    Download
-                </a>
-                <a href="">
-                    <i class="fas fa-shopping-cart"></i>
-                    Buy
-                </a>
+
+
+    <!-- sidebar -->
+    <section class="sidebar">
+        <div class="sidebar__wrap">
+            <div class="sidebar__content">
+                <div class="sidebar__header">
+                    <a href="">
+                        <i class="fas fa-angle-double-right"></i>
+                    </a>
+                </div>
+                <div class="sidebar__body">
+                    <a href="">
+                        <i class="fas fa-arrow-left"></i>
+                        Back
+                    </a>
+                    <a href="">
+                        <i class="fas fa-download"></i>
+                        Download
+                    </a>
+                    <a href="">
+                        <i class="fas fa-shopping-cart"></i>
+                        Buy
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="owl-carousel owl-theme banner-wrap">
+            <div class="item banner-item" id="banner-item-1">
+                <div class="banner-info">
+                    <div class="container">
+                        <h5>Master the</h5>
+                        <h5>Skills to Drive</h5>
+                        <h5>your Career</h5>
+                        <a class="btn" href="#">
+                            Know More<i class="fa fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item banner-item" id="banner-item-2">
+                <div class="banner-info">
+                    <div class="container">
+                        <h5>Studious is the </h5>
+                        <h5>best choice for</h5>
+                        <h5>everyone</h5>
+                        <a class="btn" href="#">
+                            Know More<i class="fa fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
 
 
 
@@ -154,6 +195,34 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel();
+        });
+    </script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplaySpeed: 1000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+
 
 </body>
 
