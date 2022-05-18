@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
 
 
 
@@ -56,6 +58,7 @@
             </div>
         </div>
     </section>
+
     <!-- sidebar -->
     <section class="sidebar">
         <div class="sidebar__wrap">
@@ -79,61 +82,11 @@
                         Buy
                     </a>
                 </div>
+
             </div>
+
         </div>
-    </section>
-    <!-- wellcome -->
-    <section class="wellcome">
-        <div class="wellcome__wrap">
-            <div class="title">
-                <h3 class="title-main">Wellcome to <span>Studious</span></h3>
-            </div>
-            <div class="wellcome__content">
-                <div class="wellcome__item">
-                    <div class="item-body">
-                        <div class="item-img">
-                            <i class="fas fa-graduation-cap"></i>
-                        </div>
-                        <div class="item-info">
-                            <a href="about.html">
-                                <h3 class="item-title">Trending Courses</h3>
-                            </a>
-                            <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                                eiusmod te incididunt</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="wellcome__item">
-                    <div class="item-body">
-                        <div class="item-img">
-                            <i class="fas fa-users"></i>
-                        </div>
-                        <div class="item-info">
-                            <a href="about.html">
-                                <h3 class="item-title">Certified Teachers</h3>
-                            </a>
-                            <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                                eiusmod te incididunt</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="wellcome__item">
-                    <div class="item-body">
-                        <div class="item-img">
-                            <i class="fas fa-book"></i>
-                        </div>
-                        <div class="item-info">
-                            <a href="about.html">
-                                <h3 class="item-title">Books & Library</h3>
-                            </a>
-                            <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                                eiusmod te incididunt</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
 
 
@@ -146,6 +99,34 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel();
+        });
+    </script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplaySpeed: 1000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+
 
 </body>
 
