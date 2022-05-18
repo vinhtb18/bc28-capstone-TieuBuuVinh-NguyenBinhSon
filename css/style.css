@@ -59,19 +59,22 @@
     color: #fff;
 }
 
-.top-header_wrap a,i{
+.top-header_wrap a,
+i {
     transition: .5s all;
 }
 
-.top-header_wrap a:hover, i:hover {
+.top-header_wrap a:hover,
+i:hover {
     color: #ff6e65;
 }
 
-@media only screen and (max-width: 991px){
+@media only screen and (max-width: 991px) {
     .top-header {
         display: none;
     }
 }
+
 /* sidebar */
 .sidebar__content {
     width: 90px;
@@ -79,7 +82,7 @@
     top: 0;
     right: 0;
     margin-top: 60px;
-    z-index: 1000;
+    /* z-index: 1000; */
     padding: 40px 5px;
     padding-top: 70px;
     margin-bottom: 70px;
@@ -94,7 +97,7 @@
     right: 0px;
     top: 70px;
     width: 90px;
-    z-index: 99999;
+    /* z-index: 99999; */
     text-align: center;
 }
 
@@ -129,21 +132,83 @@
     cursor: pointer;
     transition: all .5s;
 }
-
-.sidebar__body a {
-    display: block;
-    color: #e6ebff;
-    text-decoration: none;
-    line-height: 24px;
-    opacity: .6;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
 .sidebar__body i {
     display: block;
 }
-
 .sidebar__body a:hover {
     opacity: 1;
 }
+/* wellcome */
+.wellcome__wrap {
+    margin: auto;
+    text-align: center;
+}
+.title {
+    margin-bottom: 4rem;
+}
+.title-main {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    position: relative;
+}
+.title-main span {
+    color: #ff6e65;
+}
+.title-main:before,
+.title-main:after {
+    content: "";
+    background-color: grey;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    margin: 0 auto;
+}
+.title-main:before {
+    left: -20px;
+    bottom: -8px;
+}
+
+.title-main:after {
+    left: 20px;
+    bottom: -15px;
+}
+.wellcome__content {
+    max-width: 1200px;   
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    margin-top: 40px;
+}
+.item-img i{
+    color: #0d369f;
+    font-size: 30px;
+    background:rgb(13 54 159 / 9%);
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+}
+.item-info{
+    margin-top: 1.5rem !important;
+}
+.item-info a{
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+    transition: all .5s;
+}
+.item-info p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 28px;
+    color: #707070;
+    letter-spacing: .4px;
+}
+.item-info a:hover {
+    color: #ff6e65;
+}
+
