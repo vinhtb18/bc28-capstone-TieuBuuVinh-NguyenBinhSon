@@ -557,6 +557,76 @@ align-items: center;
     color: #ff6e65;
 }
 
+/* course */
+.course .title{
+    text-align: center;
+}
+
+.card-top{
+    position: relative;
+}
+
+.card-top img{
+    display: block;
+    max-width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-top__tag{
+    position: absolute;
+    left: 30px;
+    top: 15px;
+}
+
+.card-top__tag1{
+    background-color: #ffa100;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.card-top__tag2{
+    background-color: #1dc295;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.course-price{
+    position: absolute;
+    right: 25px;
+    bottom: -15px;
+}
+
+.course-price h6{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background: #ff6e65;
+    color: #fff;
+    box-shadow: 0px 8px 20px rgb(241 77 93 / 20%);
+    min-width: 70px;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-unstyled{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 /* grids */
 .grids__wrap {
     background-image: url(../img/bg3.jpg);
