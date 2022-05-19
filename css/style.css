@@ -400,6 +400,87 @@ align-items: center;
 
 }
 
+/* Banner bottom */
+.banner-bottom{
+    margin-top: -4em;
+    padding-bottom: 3rem;
+}
+
+.banner-bottom-box{
+    padding: 50px 35px;
+    z-index: 1;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+
+}
+
+.banner-bottom-box i{
+    font-size: 45px;
+    color: #fff;
+}
+
+.banner-bottom-box a{
+    text-decoration: none;
+    color: #fff;
+    transition: .5s all;
+
+
+}
+
+.banner-bottom-box a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.title-head{
+    margin-top: 25px;
+    display: block;
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.box-1{
+    background-color: #037ef3;
+}
+
+.box-2{
+    background-color: #ffc949;
+}
+
+.box-3{
+    background-color: #ff4f81;
+}
+
+.box-4{
+    background-color: #1ee697;
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-bottom-item {
+      padding: 0px 15px;
+      margin-bottom: 20px;
+    }
+  }
+
+@media only screen and (min-width: 768px) {
+    .banner-bottom-item {
+      padding: 0px 15px;
+      margin-bottom: 20px;
+    }
+  }
+
+@media only screen and (min-width: 992px) {
+    .banner-bottom-item {
+      padding: 0px 8px;
+    }
+  }
+
+
+
+
 /* wellcome */
 .wellcome__wrap {
     margin: auto;
