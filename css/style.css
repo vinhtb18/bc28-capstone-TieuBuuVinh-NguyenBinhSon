@@ -718,6 +718,7 @@
 
 .card-content__bottom a:hover {
     color: #0d369f;
+    text-decoration: none;
 }
 
 .rating-list {
