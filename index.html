@@ -613,7 +613,43 @@
             </div>
         </div>
     </section>
-
+    <!-- stats -->
+    <section class="stats">
+        <div class="stats__wrap container">
+            <div class="title">
+                <h3 class="title-main">Strength in <span>Numbers</span></h3>
+                <p class="mt-4 pt-md-2">Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et
+                    dolorum
+                    fuga.</p>
+            </div>
+            <div class="stats__content row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="counter-number">
+                        <div class="timer count-title count-number counter">6,300</div>
+                        <p class="count-text">Learners &amp; counting</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="counter-number">
+                        <div class="timer count-title count-number counter" data-to="638" data-speed="1500">638</div>
+                        <p class="count-text">Total courses</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="counter-number">
+                        <div class="timer count-title count-number counter" data-to="7600" data-speed="1500">7,600</div>
+                        <p class="count-text">Successful students</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="counter-number border-right-0">
+                        <div class="timer count-title count-number counter" data-to="36" data-speed="1500">36</div>
+                        <p class="count-text">Languages</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Team -->
     <section class="team">
@@ -747,13 +783,20 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+        integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.countup.js"></script>
+    <script src="./js/jquery.countup.min.js"></script>
+    <!-- <script src="./js/jquery.min.js"></script> -->
     <script src="./js/owl.carousel.min.js"></script>
     <script>
         $(document).ready(function () {
@@ -779,6 +822,9 @@
                 }
             }
         })
+    </script>
+    <script>
+        $('.counter').countUp();
     </script>
 
 
