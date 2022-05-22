@@ -806,7 +806,26 @@
     color: #707070;
     letter-spacing: .4px;
 }
-
+/* stats */
+.stats__wrap {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+}
+.counter-number {
+    border-right: 1px solid #eee;
+}
+.timer {
+    font-size: 46px;
+    font-weight: 600;
+    color: #060606;
+}
+p.count-text {
+    text-transform: uppercase;
+    color: #060606;
+}
 /* team */
 .team {
     padding: 3rem 0px;
