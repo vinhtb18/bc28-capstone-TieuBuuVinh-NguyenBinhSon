@@ -993,3 +993,55 @@ p.count-text {
     text-decoration: none;
     color: #ff6e65;
 }
+
+/* about */
+.about__left{
+    text-align: center;
+}
+
+.about__right h3::after{
+    display: none;
+}
+
+.about__right h3::before{
+    display: none;
+}
+
+.about__right h3{
+    margin-bottom: 1rem;
+}
+
+.about__right p{
+    margin: 0px;
+
+}
+
+.about__right{
+    padding-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about__button{
+    margin-top: 1.5rem;
+}
+
+.about__button a{
+    display: inline-block;
+    padding: 14px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 1rem;
+    background: #ff6e65;
+    color: #fff;
+    transition: 0.3s ease-out;
+}
+
+.about__button a:hover{
+    background: #0d369f;
+    color: #fff;
+    text-decoration: none;
+}
