@@ -250,6 +250,60 @@
     margin-left: auto;
 }
 
+/* dark theme */
+.dark-theme-button #light-theme{
+    display: none;
+}
+
+.dark-theme .header{
+    background-color: #161c2d;
+}
+
+.dark-theme .navbar-nav .nav-item a{
+    color: #fdfffc;
+}
+
+.dark-theme .nav-search input{
+    background: transparent;
+    color: #fdfffc;
+}
+
+.dark-theme .nav-search input::placeholder{
+    color: #fdfffc;
+}
+
+.dark-theme #light-theme{
+    color: #4867b0;
+}
+
+.dark-theme #light-theme:hover{
+    color: #ff6e65;
+}
+
+.dark-theme .banner-bottom{
+    background-color: #161c2d;
+}
+
+.dark-theme .wellcome{
+    background-color: #161c2d;
+
+}
+
+.dark-theme .title-main{
+    color: #fdfffc;
+}
+
+.dark-theme .wellcome .item-title{
+    color: #fdfffc;
+}
+
+.dark-theme .wellcome .item-text{
+    color: #b7b7b7;
+}
+
+.dark-theme .wellcome .item-body i{
+    background-color: rgb(168 176 195 / 11%);
+}
 
 
 
