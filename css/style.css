@@ -143,6 +143,10 @@
     gap: 10px;
 }
 
+.header .navbar .navbar-nav .active a{
+    color: #ff6e65;
+}
+
 .nav-search {
     position: relative;
     z-index: 1040;
@@ -205,6 +209,14 @@
 
 }
 
+.dropdown-menu .dropdown-item{
+    background: transparent;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover{
+    color: #ff6e65;
+}
+
 .navbar-toggler {
     border: none;
     padding: 0;
@@ -250,9 +262,193 @@
     margin-left: auto;
 }
 
+/* dark theme */
+.dark-theme-button #light-theme{
+    display: none;
+    font-size: 25px;
+    width: 24px;
+    height: 24px;
+}
 
+.dark-theme-button #dark-theme{
+    font-size: 25px;
+    width: 24px;
+    height: 24px;
+}
 
+.dark-theme .navbar-expand-lg .navbar-nav .dropdown-menu{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
 
+.dark-theme-button #dark-theme:hover{
+    color: #ff6e65;
+}
+
+.dark-theme .header{
+    background-color: #161c2d;
+}
+
+.dark-theme .header .navbar-brand{
+    color: #fff;
+}
+
+.dark-theme .navbar-nav .nav-item a{
+    color: #fdfffc;
+}
+
+.dark-theme .dropdown .dropdown-menu{
+    background-color: #161c2d;
+}
+
+.dark-theme .navbar-light .navbar-nav .nav-link{
+    color: #fdfffc;
+}
+
+.dark-theme .navbar-light .navbar-nav .nav-link:hover {
+    color: #ff6e65;
+}
+
+.dark-theme .nav-search input{
+    background: transparent;
+    color: #fdfffc;
+}
+
+.dark-theme .nav-search input::placeholder{
+    color: #fdfffc;
+}
+
+.dark-theme #light-theme{
+    color: #4867b0;
+}
+
+.dark-theme #light-theme:hover{
+    color: #ff6e65;
+}
+
+.dark-theme .banner-bottom{
+    background-color: #161c2d;
+}
+
+.dark-theme .wellcome{
+    background-color: #161c2d;
+
+}
+
+.dark-theme .title-main{
+    color: #fdfffc;
+}
+
+.dark-theme .wellcome .item-title{
+    color: #fdfffc;
+}
+
+.dark-theme .wellcome .item-text{
+    color: #b7b7b7;
+}
+
+.dark-theme .wellcome .item-body i{
+    background-color: rgb(168 176 195 / 11%);
+}
+
+.dark-theme .course{
+    background-color: #121725;
+}
+
+.dark-theme .card-content{
+    background-color: #00000000;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: none;
+}
+
+.dark-theme .list-unstyled{
+    color: #fdfffc;
+}
+
+.dark-theme .course .card-content__body a{
+    color: #fdfffc;
+}
+
+.dark-theme .course p{
+    color: #b7b7b7;
+}
+
+.dark-theme .course .card-content__bottom{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dark-theme .grids__item{
+    background-color: #161c2d;
+}
+
+.dark-theme .grids__item h5{
+    color: #fdfffc;
+}
+
+.dark-theme .grids__item p{
+    color: #b7b7b7;
+}
+
+.dark-theme .stats {
+    background-color: #161c2d;
+}
+
+.dark-theme .stats p{
+    color: #b7b7b7;
+}
+
+.dark-theme .stats .counter-number div{
+    color: #fdfffc;
+}
+
+.dark-theme .stats .counter-number p{
+    color: #fdfffc;
+}
+
+.dark-theme .testimonial{
+    background-color: #161c2d;
+}
+
+.dark-theme .testimonial q{
+    color: #b7b7b7;
+}
+
+.dark-theme .testimonials_grid{
+    background-color: #161c2d;
+    box-shadow: 0 20px 62px hsla(222, 34%, 17%, 1);
+}
+
+.dark-theme .testimonial .text-left h5{
+    color: #fdfffc;
+}
+
+.dark-theme .testimonial .text-left p{
+    color: #b7b7b7;
+}
+
+.dark-theme .team{
+    background-color: #161c2d;
+}
+
+.dark-theme .team-card{
+    background-color: transparent;
+    box-shadow: 0 20px 62px hsla(222, 34%, 17%, 1);
+}
+
+.dark-theme .team-card .member a{
+    color: #fdfffc;
+}
+
+.dark-theme .team-card small{
+    color: #b7b7b7;
+}
+
+.dark-theme .about{
+    background-color: #161c2d;
+}
+
+.dark-theme .about__right p{
+    color: #b7b7b7;
+}
 
 /* sidebar */
 .sidebar__content {
