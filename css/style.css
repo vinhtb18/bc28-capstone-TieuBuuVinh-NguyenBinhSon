@@ -1243,6 +1243,7 @@ footer {
     display: inline-block;
     border-radius: 50%;
     text-align: center;
+    transition: all .5s;
 }
 .social li a span {
     font-size: 15px;
@@ -1250,9 +1251,18 @@ footer {
 }
 .social li a:hover {
     opacity: 0.6;
-    transition: all .5s linear;
 }
 .social li {
     display: inline-block;
     margin-right: 5px;
+}
+.copyright-footer {
+    background: #040a17;
+    padding: 20px 0;
+}
+.columns p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #a0a0a0;
+    margin-bottom: 0px;
 }
