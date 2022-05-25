@@ -855,6 +855,11 @@
     top: 15px;
 }
 
+.course .card-top .card-top__tag a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
 .card-top__tag1 {
     background-color: #ffa100;
     border-radius: 3px;
@@ -873,6 +878,7 @@
     padding: 4px 10px;
     color: #fff;
     margin-right: 5px;
+
 }
 
 .card-top__tag3 {
@@ -883,6 +889,7 @@
     padding: 4px 10px;
     color: #fff;
     margin-right: 5px;
+
 }
 
 .course-price {
